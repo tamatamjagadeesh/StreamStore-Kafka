@@ -17,7 +17,7 @@ order ={
     "order_id": str(uuid.uuid4()),
     "user": "jaggu",
     "items": "Milk",
-    "quantity": 9
+    "quantity": 99
 }
 value = json.dumps(order).encode('utf-8')
 producer.produce(
